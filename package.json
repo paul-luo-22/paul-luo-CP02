@@ -1,0 +1,19 @@
+{
+  "name": "paul-luo-cp02",
+  "version": "1.0",
+  "description": "Just a test repo",
+  "main": "index.js",
+  "author": "Paul",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index",
+    "test": "jest --watchAll",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  },
+  "jest": {
+    "verbose": true
+  }
+}
